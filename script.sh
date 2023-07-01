@@ -13,7 +13,7 @@ sudo service ssh restart
 # Custom Shell Prompt
 echo -e "\033[44m### Making Custom Shell Prompt ###\033[m"
 
-cat <<EOF>>  /home/raj/.bashrc
+cat <<EOF>>  /home/$USER/.bashrc
 
 BRACKET_COLOR="\[\033[38;5;35m\]"
 CLOCK_COLOR="\[\033[38;5;35m\]"
