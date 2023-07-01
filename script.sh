@@ -44,3 +44,6 @@ sudo apt install qemu-guest-agent -y
 
 sudo systemctl enable --now qemu-guest-aagent.service
 
+bash
+
+
